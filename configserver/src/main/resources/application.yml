@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: configserver
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: file:///C:\Users\Bayram\Desktop\JavaDersleri\ecom-microservices\configserver\src\main\resources\config
+
+
+server:
+  port: 8888
