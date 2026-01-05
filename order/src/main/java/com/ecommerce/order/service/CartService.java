@@ -48,7 +48,7 @@ public class CartService {
             cartItem.setUserId(userId);
             cartItem.setProductId(request.getProductId());
             cartItem.setQuantity(request.getQuantity());
-            cartItem.setPrice(BigDecimal.valueOf(1000.00));
+            cartItem.setPrice(BigDecimal.valueOf(1500.00));
             cartItemRepository.save(cartItem);
         }
         return true;
