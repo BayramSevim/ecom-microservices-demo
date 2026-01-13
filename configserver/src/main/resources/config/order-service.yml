@@ -16,6 +16,15 @@ spring:
    username: guest
    password: guest
 
+
+rabbitmq:
+  exchange:
+    name: order.exchange
+  queue:
+    name: order.queue
+  routing:
+    key: order.tracking
+
 management:
   endpoints:
     web:
@@ -63,6 +72,17 @@ resilience4j:
         failureRateThreshold: 50
         automaticTransitionFromOpenToHalfOpenEnabled: true
         slidingWindowType: count_based
+  retry:
+    instances:
+      retryBreaker:
+        maxAttempts: 5
+        waitDuration: 500ms
+  rateLimiter:
+    instances:
+      retryBreaker:
+        timeout-duration: 0
+        limit-refresh-period: 4
+        limit-for-period: 2
 
 server:
   port: 8083
