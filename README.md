@@ -71,20 +71,6 @@ cd product-service
 mvn spring-boot:run
 ```
 
-## 🔗 Sample Endpoints
-
-| Service | Endpoint         | Description   |
-| ------- | ---------------- | ------------- |
-| Product | GET /products    | List products |
-| Order   | POST /orders     | Create order  |
-| Auth    | POST /auth/login | User login    |
-
-## 🧪 Testing
-
-```bash
-mvn test
-```
-
 ## 📌 Project Scope & Purpose
 
 This project is **actively under development** and is intended to:
