@@ -89,13 +89,13 @@ The project is continuously evolving. The following features are implemented or 
 
 * ✅ Microservices architecture
 * ✅ API Gateway
+* ✅ Circuit Breaker & Resilience (Resilience4j)
 * 🔄 Event-driven communication with **Apache Kafka**
 * 🔄 Messaging abstraction with **Spring Cloud Stream**
 * 🔄 Centralized authentication & authorization using **Keycloak**
 * 🔄 Full **containerization with Docker**
 * ⏳ Distributed Tracing (Zipkin / OpenTelemetry)
 * ⏳ Centralized Logging (ELK Stack)
-* ⏳ Circuit Breaker & Resilience (Resilience4j)
 
 ## 🏗 Architecture & Communication Flow
 
