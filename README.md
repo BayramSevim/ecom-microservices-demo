@@ -156,11 +156,3 @@ This setup ensures:
 ## 🤝 Contributing
 
 Contributions are welcome! Please open an issue before making major changes.
-
-## 📄 License
-
-This project is licensed under the MIT License.
-
----
-
-👤 **Author:** Bayram Sevim
