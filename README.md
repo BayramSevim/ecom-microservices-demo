@@ -22,8 +22,11 @@ Example services:
 * Spring Cloud (Gateway, Config, Eureka, etc.)
 * **Spring Cloud Stream**
 * **Apache Kafka**
+* **RabbitMQ**
 * **Keycloak (OAuth2 / OpenID Connect)**
 * Docker & Docker Compose (Containerization)
+* Zipkin
+* Redis
 * PostgreSQL / MongoDB (depending on the service)
 * Maven
 * RESTful APIs
